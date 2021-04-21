@@ -12,7 +12,7 @@
 ## Concept
 
 Vanaf het begin van de coronatijd ben ik weer basgitaar gaan spelen, niet per se echt lessen volgen, maar gewoon een beetje spelen, nou leek het mij wel leuk om mijn basgitaar als input te gebruiken voor mijn generative art kunstwerk. <br />
-ik heb een stemmachine gevonden die gemaakt is in p5 (https://editor.p5js.org/michellu0929/sketches/X_GCvPXzw), wat dus betekend dat het zeker mogelijk is om je computer de precieze noot te laten herkennen die je speelt. Het lijkt mij leuk om te zorgen dat ik iets kan tekenen door middel van het spelen op mijn basgitaar. <br />
+ik heb een stemmachine gevonden die gemaakt is in p5 (https://editor.p5js.org/aferriss/sketches/rybb7niAG), wat dus betekend dat het zeker mogelijk is om je computer de precieze noot te laten herkennen die je speelt. Het lijkt mij leuk om te zorgen dat ik iets kan tekenen door middel van het spelen op mijn basgitaar. <br />
 Zo wil ik elke noot een andere vorm geven, waarbij bijvoorbeeld een E een cirkel is, zo kunnen een E sharp of een E flat andere varianten van de cirkel zijn, bijvoorbeeld met een dikkere/dunnere rand.
 
 ## Features
@@ -38,6 +38,10 @@ Zo wil ik elke noot een andere vorm geven, waarbij bijvoorbeeld een E een cirkel
 
 ## Bronnenlijst
 
+<<<<<<< HEAD
 * stemmachine gemaakt in p5 `https://editor.p5js.org/michellu0929/sketches/X_GCvPXzw`
+=======
+* stemmachine gemaakt in p5 `https://editor.p5js.org/aferriss/sketches/rybb7niAG`
+>>>>>>> 640d3c687afddcecb2706598c3e327f713da7e69
 * `Link naar bron 2`
 * `Link naar bron 3`
