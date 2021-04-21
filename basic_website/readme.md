@@ -11,7 +11,7 @@
 
 ## Concept
 
-`Vanaf het begin van de coronatijd ben ik weer basgitaar gaan spelen, niet per se echt lessen volgen, maar gewoon een beetje spelen, nou leek het mij wel leuk om mijn basgitaar als input te gebruiken voor mijn generative art kunstwerk. ik heb een stemmachine gevonden die gemaakt is in p5 (https://editor.p5js.org/michellu0929/sketches/X_GCvPXzw), wat dus betekend dat het zeker mogelijk is om je computer de precieze noot te laten herkennen die je speelt. Het lijkt mij leuk om te zorgen dat ik iets kan tekenen door middel van het spelen op mijn basgitaar.`
+Vanaf het begin van de coronatijd ben ik weer basgitaar gaan spelen, niet per se echt lessen volgen, maar gewoon een beetje spelen, nou leek het mij wel leuk om mijn basgitaar als input te gebruiken voor mijn generative art kunstwerk. ik heb een stemmachine gevonden die gemaakt is in p5 (https://editor.p5js.org/michellu0929/sketches/X_GCvPXzw), wat dus betekend dat het zeker mogelijk is om je computer de precieze noot te laten herkennen die je speelt. Het lijkt mij leuk om te zorgen dat ik iets kan tekenen door middel van het spelen op mijn basgitaar.
 
 ## Features
 
@@ -36,6 +36,6 @@
 
 ## Bronnenlijst
 
-* `Link naar bron 1`
+* stemmachine gemaakt in p5 `https://editor.p5js.org/michellu0929/sketches/X_GCvPXzw`
 * `Link naar bron 2`
 * `Link naar bron 3`
