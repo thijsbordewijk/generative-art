@@ -6,7 +6,7 @@
 * **Naam:** `Thijs Bordewijk`
 * **Klas:** `vid-2a`
 * **Minor:** `Visual Interface Design`
-* **Favoriete dier:** `Tijgers denk ik, maar van die vliegende eekhoorns zijn ook sick`
+* **Favoriete dier:** `Tijgers denk ik, maar van die vliegende eekhoorns zijn ook wel gaaf`
 * **Startniveau:** `blauw/rood/zwart`
 
 ## Concept
