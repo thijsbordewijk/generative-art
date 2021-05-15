@@ -1,36 +1,50 @@
-/* 👇 Start writing your p5.js code here */
-let note;
+// /* 👇 Start writing your p5.js code here */
+// let note;
+
+var button = document.createElement("button");
+var body = document.getElementsByTagName("body")[0];
+var x, y, w, h;
+var totalShapeCount = 1;
 
 function setup() {
-  createCanvas(windowWidth, windowHeight);
-}
+  
+button.innerHTML = "draw shape";
+body.appendChild(button);
+button.addEventListener ("click", function makeShapes() {
 
-function draw() {
-  background(220);
-  ellipse(width / 2, height / 2, 50, 50);
-}
+  createCanvas(800,800);
 
-function randomShape() {
-  x = random(width);
-  y = random(height);
-  w = random(5, 100);
-  h = random(5, 100);
+    var i = 0
+  
+   stroke(255, 50);
+    for (i = 0; i < totalShapeCount; i++) {
+    drawRandomShape("rectangle");
+    }
+  
+    stroke (0, 50);
+    for (i = 0; i < totalShapeCount; i++) {
+  	drawRandomShape("ellipse");
+    }
 
-  if (choice == "ellipse") {
-    noStroke();
-    fill(random(25), random(5), random(255), 50);
-    ellipse(x, y, w, h);
+  function drawRandomShape(choice) {
+    x = random(width);
+    y = random(height);
+    w = random(5, 100);
+    h = random(5, 100);
+      
+    if (choice == "ellipse") {
+      noStroke();
+      fill(random(25), random(5), random(255), 50);
+      ellipse(x, y, w, h);
+    }
+    else {
+      noStroke();
+      fill(random(255), random(255), random(255), 90);
+      rect(x, y, w, h);
+    }
   }
-  else {
-    noStroke();
-    fill(random(255), random(255), random(255), 90);
-    rect(x, y, w, h);
-  }
-}
+})
+} 
 
-function windowResized() {
-  resizeCanvas(windowWidth, windowHeight);
-}
 
-function toggleLiveInput() {
-};
+
