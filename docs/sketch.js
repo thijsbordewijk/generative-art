@@ -4,7 +4,9 @@
 var button = document.createElement("button");
 var body = document.getElementsByTagName("body")[0];
 var x, y, w, h;
-var totalShapeCount = 1;
+var maxShapeCount = startShapeCount + addShapeCount;
+var startShapeCount = 1;
+
 
 function setup() {
   
@@ -17,12 +19,12 @@ button.addEventListener ("click", function makeShapes() {
     var i = 0
   
    stroke(255, 50);
-    for (i = 0; i < totalShapeCount; i++) {
+    for (i = 0; i < maxShapeCount; i++) {
     drawRandomShape("rectangle");
     }
   
     stroke (0, 50);
-    for (i = 0; i < totalShapeCount; i++) {
+    for (i = 0; i < maxShapeCount; i++) {
   	drawRandomShape("ellipse");
     }
 
@@ -43,7 +45,10 @@ button.addEventListener ("click", function makeShapes() {
       rect(x, y, w, h);
     }
   }
-})
+
+  console.log("drawing complete!")
+
+})  
 } 
 
 
