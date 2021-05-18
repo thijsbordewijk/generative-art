@@ -4,15 +4,23 @@
 
 // variabelen aanmaken.
 var button = document.createElement("a");
+var volBlock = document.createElement("p");
 var buttonSpot = document.getElementsByClassName("buttons")[0];
 var x, y, w, h;
 var buttonText = "add shape";
+let mic;
 
 function setup() {
 
 // grijs canvas ten grootte van het scherm, met bovenaan een knop die de microfoon simuleert.
 createCanvas(1900, 885);
 background(240);
+
+mic = new p5.AudioIn();
+vol = mic.getLevel();
+mic.start();
+console.log(vol)
+
 button.innerHTML = buttonText;
 buttonSpot.appendChild(button);
 button.addEventListener ("click",
@@ -36,7 +44,8 @@ function drawMore() {
     }
   }
 })
-} 
-
-
-
+// function micVol() {
+//   let vol = mic.getLevel();
+//   console.log(vol)
+// }
+}
