@@ -44,8 +44,4 @@ function drawMore() {
     }
   }
 })
-// function micVol() {
-//   let vol = mic.getLevel();
-//   console.log(vol)
-// }
 }
