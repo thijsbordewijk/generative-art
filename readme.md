@@ -17,31 +17,26 @@ Zo wil ik elke noot een andere vorm geven, waarbij bijvoorbeeld een E een cirkel
 
 ## Features
 
-`Wat zijn de features in het project dat je gemaakt hebt? Waar kan ik op klikken? Waar zit de interactie?`
+Het moet mogelijk worden om de microfoon te gebruiken om random cirkels te plaatsen, zo kan je door een instrument te spelen een kunstwerk maken, en elke is anders.
 
 ## Onderzoek & inspiratie
-`Schrijf wat over je onderzoek en je inspiratie voor het project. Hoe kwam je concept tot stand?`
+
+in eerste instantie wou ik weten hoe de microfoon werkt en of deze makkelijk te gebruiken is in p5, verder was ik benieuwd of het mogelijk was om verschillende noten te herkennen als ik een instrument speel, dit was zeker mogelijk, maar zou misschien ene stuk ingewikkelder worden dan ik van plan was, dus renderen op basis van noten gaat ni in de "nice to have" categorie.
 
 ## Voortang
 
-`Schrijf hier een klein logboekje met je voortgang per week.`
-
 ### Week-1
-`Wat heb je gedaan? Wat ging goed? Wat kon beter?`
+Grotendeels concepting, redelijk snel dit concept bedacht, wordt nog aangepast als ik meer op de hoogte ben hoe makkelijk dit gaat worden. concept momenteel is een website waar je muziek in een kunstwerk kan veranderen, ik wil een instrument kunnen bespelen en dan mijn website zo programmeren dat er vormen op het scherm komen op basis van de muziek die gespeeld wordt.
 
 ### Week-2
-`Wat heb je gedaan? Wat ging goed? Wat kon beter?`
+begin gemaakt aan de code, tot nu toe werkend gekregen dat er random cirkels geplaatst worden in een canvas, tot nu toe nog niet mogelijk handmatig vormen toe te voegen. Achteraf was ik graag al wat verder geweest deze week, nu is het meeste werk in week 3 gaan zitten
 
 ### Week-3
-`Wat heb je gedaan? Wat ging goed? Wat kon beter?`
+Randeren van random cirkels werken gekregen met een knop, de cirkels worden met random kleuren en groottes gerendered. ik heb besloten het renderen op basis van noten te schrappen, de code zou daarmee een stuk ingewikkelder worden, ik denk eerder om iets te gaan doen met volume gezien dit een stuk makkelijker is om te maken gezien hier al mogelijkheden voor zijn binnen de p5.sound library die ik al gebruik voor het gebruik van de microfoon.
 
 
 ## Bronnenlijst
 
-<<<<<<< HEAD
-* stemmachine gemaakt in p5 `https://editor.p5js.org/michellu0929/sketches/X_GCvPXzw`
-=======
-* stemmachine gemaakt in p5 `https://editor.p5js.org/aferriss/sketches/rybb7niAG`
->>>>>>> 640d3c687afddcecb2706598c3e327f713da7e69
-* random shape generator `https://editor.p5js.org/mrm029/sketches/rk8upjm9m`
-* `Link naar bron 3`
+* stemmachine gemaakt in p5 - https://editor.p5js.org/aferriss/sketches/rybb7niAG`
+* random shape generator - https://editor.p5js.org/mrm029/sketches/rk8upjm9m`
+* p5 mic input - https://p5js.org/examples/sound-mic-input.html`
