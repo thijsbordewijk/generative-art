@@ -17,9 +17,12 @@ createCanvas(1900, 885);
 background(240);
 
 mic = new p5.AudioIn();
-vol = mic.getLevel();
 mic.start();
+
+function draw() {
+vol = mic.getLevel();
 console.log(vol)
+}
 
 button.innerHTML = buttonText;
 buttonSpot.appendChild(button);
