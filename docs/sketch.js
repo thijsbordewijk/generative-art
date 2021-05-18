@@ -1,54 +1,41 @@
 // /* 👇 Start writing your p5.js code here */
 // let note;
 
-var button = document.createElement("button");
-var body = document.getElementsByTagName("body")[0];
-var x, y, w, h;
-var maxShapeCount = startShapeCount + addShapeCount;
-var startShapeCount = 1;
 
+// variabelen aanmaken.
+var button = document.createElement("a");
+var buttonSpot = document.getElementsByClassName("buttons")[0];
+var x, y, w, h;
+var buttonText = "add shape";
 
 function setup() {
-  
-button.innerHTML = "draw shape";
-body.appendChild(button);
-button.addEventListener ("click", function makeShapes() {
 
-  createCanvas(800,800);
+// grijs canvas ten grootte van het scherm, met bovenaan een knop die de microfoon simuleert.
+createCanvas(1900, 885);
+background(240);
+button.innerHTML = buttonText;
+buttonSpot.appendChild(button);
+button.addEventListener ("click",
 
-    var i = 0
-  
-   stroke(255, 50);
-    for (i = 0; i < maxShapeCount; i++) {
-    drawRandomShape("rectangle");
-    }
-  
-    stroke (0, 50);
-    for (i = 0; i < maxShapeCount; i++) {
-  	drawRandomShape("ellipse");
-    }
+// de functie van het aanmaken van een random vorm zit binnen de evenListener van de knop zodat deze alleen activeert als de knop wordt ingedrukt.
+function drawMore() {
+  drawRandomShape("ellipse");
 
+  // de plek en grootte van de cirkel wordt random uitgekozen
   function drawRandomShape(choice) {
     x = random(width);
     y = random(height);
-    w = random(5, 100);
-    h = random(5, 100);
-      
+    w = random(5, 200);
+    h = random(5, 200);
+    
+    // de cirkel wordt geplaatst met een random kleurwaarde en een opacity van 75%
     if (choice == "ellipse") {
       noStroke();
-      fill(random(25), random(5), random(255), 50);
+      fill(random(255), random(255), random(255), 75);
       ellipse(x, y, w, h);
     }
-    else {
-      noStroke();
-      fill(random(255), random(255), random(255), 90);
-      rect(x, y, w, h);
-    }
   }
-
-  console.log("drawing complete!")
-
-})  
+})
 } 
 
 
