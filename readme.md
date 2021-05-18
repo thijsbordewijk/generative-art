@@ -40,3 +40,5 @@ Randeren van random cirkels werken gekregen met een knop, de cirkels worden met 
 * stemmachine gemaakt in p5 - https://editor.p5js.org/aferriss/sketches/rybb7niAG`
 * random shape generator - https://editor.p5js.org/mrm029/sketches/rk8upjm9m`
 * p5 mic input - https://p5js.org/examples/sound-mic-input.html`
+* frame rates - https://creative-coding.decontextualize.com/changes-over-time/
+* p5 basics - https://www.youtube.com/channel/UCvjgXvBlbQiydffZU7m1_aw
